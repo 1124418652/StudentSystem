@@ -21,13 +21,14 @@ public class Window{
 		JButton chkButton = new JButton("Check");
 		JButton viwButton = new JButton("View");
 		
-		JPanel jpanel = new JPanel(new FlowLayout());
+		JPanel jpanel = (JPanel)demo.getContentPane();
+		jpanel.setLayout(new FlowLayout());
 		jpanel.add(addButton);
 		jpanel.add(delButton);
 		jpanel.add(chgButton);
 		jpanel.add(chkButton);
 		jpanel.add(viwButton);
 		
-		demo.add(jpanel);
+		addButton.addActionListener(new AddEvent());
 	}
 }
