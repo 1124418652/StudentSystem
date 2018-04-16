@@ -56,6 +56,12 @@ public class AddEvent extends JFrame implements ActionListener{
 		{
 			public void actionPerformed(ActionEvent e)
 			{
+				String number = jtnumber.getText();
+				String name = jtname.getText();
+				String sex = jtsex.getText();
+				String birthday = jtbirthday.getText();
+				String department = jtdepartment.getText();
+				
 				
 			}
 		}
