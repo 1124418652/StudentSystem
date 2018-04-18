@@ -11,7 +11,7 @@ public class AddEvent extends JFrame implements ActionListener{
 	
 	public void actionPerformed(ActionEvent e)
 	{
-		AddEvent addevent = new AddEvent();
+		AddEvent addevent = new AddEvent(); 
 	}
 	
 	JLabel jlnumber = new JLabel("Ñ§ºÅ");
